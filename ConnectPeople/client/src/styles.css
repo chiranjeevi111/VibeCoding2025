@@ -1,0 +1,10 @@
+/* Basic small-tailwind like spacing presets plus a few tweaks */
+@layer base {
+  body { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+}
+
+/* add a few helper classes for card shadows */
+.card { @apply bg-white rounded-lg shadow p-4; }
+
+/* Keep a mobile container */
+.safe-area { padding: env(safe-area-inset-top) 16px 24px 16px; }
